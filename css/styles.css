@@ -1,0 +1,137 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+}
+
+#wrapper {
+    position: relative;
+    /* overflow-x: hidden; */
+    padding: 5px;
+}
+
+.block__a, .block__b, .block__c, .block__c__fixed {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+
+.block__a__text, .block__b__text, .block__c__text, .block__c__fixed__text {
+    text-align: center;
+}
+
+
+.block__a {
+    background-color:rgb(144, 209, 174);
+    width: 350px;
+    height: 205px;
+    position: relative;
+    font-size: 22px;
+}
+
+.block__a__text{
+    position: sticky;
+    top:100px;
+}
+
+.block__b {
+    background-color:darkorange;
+    width: 150px;
+    height: 390px;
+    position: absolute;
+    top:5px;
+    left:360px;
+}
+
+.block__b__text {
+    position: relative;
+    top: 180px;
+}
+
+.block__c {
+    background-color: darkslateblue;
+    width: 350px;
+    height: 180px;
+    position: absolute;
+    top:215px;
+}
+
+.block__c__text {
+    position: relative;
+    top:80px;
+}
+
+.block__c__fixed {
+    position: fixed;
+    /* width: 105px;
+    height: 85px; */
+    top:170px;
+    left:125px;
+}
+
+.block__c__fixed__upper{
+    width: 105px;
+    height: 85px;
+    background-color: white;
+    position: relative;
+    z-index: 2;
+}
+
+.block__c__fixed__text {
+    color: rgb(0, 2, 128);
+    position: relative;
+    top:28px;
+}
+.block__c__fixed__lower {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    z-index: 1;
+    top: -45px;
+    left: 43px;
+    transform: skew(30deg, 300deg);
+}
+
+.hometask__part2 {
+    margin-top: 200px;
+    position: relative;
+    
+}
+.block__1, .block__2, .block__3, .block__4 {
+    width: 300px;
+    height: 150px;
+    border: 2px solid black;
+    position: absolute;
+}
+
+.block__1{
+    background-color: yellow;
+    z-index: 9999;
+}
+
+.block__2{
+    background-color: blue;
+    z-index: 9;
+    left:200px;
+}
+
+.block__3 {
+    background-color: green;
+    z-index: 99;
+    top:85px;
+}
+
+.block__4{
+    background-color: red;
+    z-index: 999;
+    top:85px;
+    left:200px;
+}
+
+span {
+    display: block;
+    position: absolute;
+    top:42%;
+    left:50%;
+}
+
